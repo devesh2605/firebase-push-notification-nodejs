@@ -1,8 +1,8 @@
 var express = require('express'),
     fs = require('fs'),
     path = require('path'),
-    FCM = require('fcm-node');
-winston = require('winston');
+    FCM = require('fcm-node'),
+    winston = require('winston');
 
 var app = express.Router();
 var env = process.env.NODE_ENV || 'development';
